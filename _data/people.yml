@@ -64,10 +64,10 @@
     url: "gaeg"
     role: "Undergraduate Intern"
     image: Gerson.jpg 
-- name: "Hermione Celestain"
-  url: HC
-  Role: "Undergraduate Student"
-  image: Hermione.jpg
+  - name: "Hermione Celestain"
+    url: HC
+    Role: "Undergraduate Student"
+    image: Hermione.jpg
 
 - group: 'Alumni and Former CNERG members'
   people:
