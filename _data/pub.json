@@ -2619,7 +2619,7 @@
     },
     {
         "key": "9NC9HDVU",
-        "version": 27084,
+        "version": 32436,
         "library": {
             "type": "group",
             "id": 10058,
@@ -2666,7 +2666,7 @@
         "bibtex": "\n@article{shriwise_hardware-accelerated_2022,\n\ttitle = {Hardware-{Accelerated} {Ray} {Tracing} of {CAD}-{Based} {Geometry} for {Monte} {Carlo} {Radiation} {Transport}},\n\tvolume = {24},\n\tissn = {1558-366X},\n\turl = {https://ieeexplore.ieee.org/document/9721666},\n\tdoi = {10.1109/MCSE.2022.3154656},\n\tabstract = {Monte Carlo radiation transport (MCRT) methods have been used to simulate radiation environments for many decades by tracking individual particles through a model to accumulate statistical information. MCRT geometry is historically formed using the constructive solid geometry (CSG). Recently, significant work has been performed to support simulations using computer-aided design (CAD)-based tessellated surfaces to support highly complex geometries. Ray tracing acceleration data structures from the rendering and visualization community are applied to accelerate particle tracking in CAD-based models. Despite these efforts, CSG representations provide the superior performance in surface intersection operations during particle flight. Concurrently, pseudo Monte Carlo methods have become prevalent in rendering applications to support more realistic models for scattering media, motivating innovations that are advantageous for MCRT simulations. The authors’ work extends these innovations by employing Intel’s Embree ray tracing kernel within a geometry toolkit for Monte Carlo to improve the simulation performance using CAD-based models by factors of 1.5 to 2.},\n\tnumber = {2},\n\tjournal = {Computing in Science \\& Engineering},\n\tauthor = {Shriwise, Patrick C. and Wilson, Paul P. H. and Davis, Andrew and Romano, Paul K.},\n\tmonth = mar,\n\tyear = {2022},\n\tnote = {Conference Name: Computing in Science \\& Engineering},\n\tkeywords = {Computational modeling, Geometry, Hardware acceleration, Mathematical models, Monte Carlo methods, Ray tracing, Solid modeling},\n\tpages = {52--61},\n}\n",
         "data": {
             "key": "9NC9HDVU",
-            "version": 27084,
+            "version": 32436,
             "itemType": "journalArticle",
             "title": "Hardware-Accelerated Ray Tracing of CAD-Based Geometry for Monte Carlo Radiation Transport",
             "creators": [
@@ -2752,6 +2752,7 @@
                 }
             ],
             "collections": [
+                "APMMJXES",
                 "UKXV4KID"
             ],
             "relations": {},
