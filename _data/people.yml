@@ -64,7 +64,10 @@
     url: HC
     Role: "Undergraduate Student"
     image: Hermione.jpg
-
+  - name: "Evan Pouliot"
+    url: "evpou"
+    role: "Undergraduate Researcher With SURE"
+    image: Evan_thebestihave.jpg
 - group: 'Alumni and Former CNERG members'
   people:
   - name: Tae Wook Ahn
