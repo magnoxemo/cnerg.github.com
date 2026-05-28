@@ -1237,6 +1237,254 @@
         }
     },
     {
+        "key": "AEXENRYM",
+        "version": 32466,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/AEXENRYM",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/AEXENRYM",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/QKQHRH7H",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 17763048
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Schnabel et al.",
+            "parsedDate": "2024-02-01",
+            "numChildren": 2
+        },
+        "bibtex": "\n@article{schnabel_fendl_2024,\n\tseries = {Special {Issue} on {Nuclear} {Reaction} {Data}},\n\ttitle = {{FENDL}: {A} library for fusion research and applications},\n\tvolume = {193},\n\tissn = {0090-3752},\n\tshorttitle = {{FENDL}},\n\turl = {https://www.sciencedirect.com/science/article/pii/S0090375224000012},\n\tdoi = {10.1016/j.nds.2024.01.001},\n\tabstract = {The Fusion Evaluated Nuclear Data Library (FENDL) is a comprehensive and validated collection of nuclear cross section data coordinated by the International Atomic Energy Agency (IAEA) Nuclear Data Section (NDS). FENDL assembles the best nuclear data for fusion applications selected from available nuclear data libraries and has been under development for decades. FENDL contains sub-libraries for incident neutron, proton, and deuteron cross sections including general purpose and activation files used for particle transport and nuclide inventory calculations. In this work, we describe the history, selection of evaluations for the various sub-libraries (neutron, proton, deuteron) with the focus on transport and reactor dosimetry applications, the processing of the nuclear data for application codes (e.g. MCNP), and the development of the TENDL-2017 library which is the currently recommended activation library for FENDL. We briefly describe the IAEA IRDFF library as the recommended library for dosimetry fusion applications. We also present work on validation of the neutron sub-library using a variety of fusion relevant computational and experimental benchmarks using the MCNP transport code and ACE-formatted cross section libraries. A variety of cross section libraries are used for the validation work including FENDL-2.1, FENDL-3.1d, FENDL-3.2, ENDF/B-VIII.0, and JEFF-3.2 with the emphasis on the FENDL libraries. The results of the validation using computational benchmarks showed generally good agreement among the tested neutron cross section libraries for neutron flux, nuclear heating, and primary displacement damage (dpa). Gas production (H/He) in structural materials showed substantial differences to the reference FENDL-2.1 library. The results of the experimental validation showed that the performance of FENDL-3.2b is at least as good and in most cases better than FENDL-2.1. Future work will consider improved evaluations developed by the International Nuclear Data Evaluation Network (INDEN) for materials such as O, Cu, W, Li, B, and F. Additionally, work will need to be done to investigate differences in gas production in structural materials. Covariance matrices will need to be developed or updated as availability of consistent and comprehensive uncertainty information will be needed as fusion technology and facility construction matures. Finally, additional validation work for high energy neutrons, protons and deuterons, as well as validation work for the activation library will be needed.},\n\turldate = {2026-05-28},\n\tjournal = {Nuclear Data Sheets},\n\tauthor = {Schnabel, G. and Aldama, D. L. and Bohm, T. and Fischer, U. and Kunieda, S. and Trkov, A. and Konno, C. and Capote, R. and Koning, A. J. and Breidokaite, S. and Eade, T. and Fabbri, M. and Flammini, D. and Isolan, L. and Kodeli, I. and Košťál, M. and Kwon, S. and Laghi, D. and Leichtle, D. and Nakayama, S. and Ohta, M. and Packer, L. W. and Qiu, Y. and Sato, S. and Sawan, M. and Schulc, M. and Stankunas, G. and Sumini, M. and Valentine, A. and Villari, R. and Žohar, A.},\n\tmonth = feb,\n\tyear = {2024},\n\tpages = {1--78},\n}\n",
+        "data": {
+            "key": "AEXENRYM",
+            "version": 32466,
+            "itemType": "journalArticle",
+            "title": "FENDL: A library for fusion research and applications",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "G.",
+                    "lastName": "Schnabel"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "D. L.",
+                    "lastName": "Aldama"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "T.",
+                    "lastName": "Bohm"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "U.",
+                    "lastName": "Fischer"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "S.",
+                    "lastName": "Kunieda"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "A.",
+                    "lastName": "Trkov"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "C.",
+                    "lastName": "Konno"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "R.",
+                    "lastName": "Capote"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "A. J.",
+                    "lastName": "Koning"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "S.",
+                    "lastName": "Breidokaite"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "T.",
+                    "lastName": "Eade"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Fabbri"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "D.",
+                    "lastName": "Flammini"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "L.",
+                    "lastName": "Isolan"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "I.",
+                    "lastName": "Kodeli"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Košťál"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "S.",
+                    "lastName": "Kwon"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "D.",
+                    "lastName": "Laghi"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "D.",
+                    "lastName": "Leichtle"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "S.",
+                    "lastName": "Nakayama"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Ohta"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "L. W.",
+                    "lastName": "Packer"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Y.",
+                    "lastName": "Qiu"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "S.",
+                    "lastName": "Sato"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Sawan"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Schulc"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "G.",
+                    "lastName": "Stankunas"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M.",
+                    "lastName": "Sumini"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "A.",
+                    "lastName": "Valentine"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "R.",
+                    "lastName": "Villari"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "A.",
+                    "lastName": "Žohar"
+                }
+            ],
+            "abstractNote": "The Fusion Evaluated Nuclear Data Library (FENDL) is a comprehensive and validated collection of nuclear cross section data coordinated by the International Atomic Energy Agency (IAEA) Nuclear Data Section (NDS). FENDL assembles the best nuclear data for fusion applications selected from available nuclear data libraries and has been under development for decades. FENDL contains sub-libraries for incident neutron, proton, and deuteron cross sections including general purpose and activation files used for particle transport and nuclide inventory calculations. In this work, we describe the history, selection of evaluations for the various sub-libraries (neutron, proton, deuteron) with the focus on transport and reactor dosimetry applications, the processing of the nuclear data for application codes (e.g. MCNP), and the development of the TENDL-2017 library which is the currently recommended activation library for FENDL. We briefly describe the IAEA IRDFF library as the recommended library for dosimetry fusion applications. We also present work on validation of the neutron sub-library using a variety of fusion relevant computational and experimental benchmarks using the MCNP transport code and ACE-formatted cross section libraries. A variety of cross section libraries are used for the validation work including FENDL-2.1, FENDL-3.1d, FENDL-3.2, ENDF/B-VIII.0, and JEFF-3.2 with the emphasis on the FENDL libraries. The results of the validation using computational benchmarks showed generally good agreement among the tested neutron cross section libraries for neutron flux, nuclear heating, and primary displacement damage (dpa). Gas production (H/He) in structural materials showed substantial differences to the reference FENDL-2.1 library. The results of the experimental validation showed that the performance of FENDL-3.2b is at least as good and in most cases better than FENDL-2.1. Future work will consider improved evaluations developed by the International Nuclear Data Evaluation Network (INDEN) for materials such as O, Cu, W, Li, B, and F. Additionally, work will need to be done to investigate differences in gas production in structural materials. Covariance matrices will need to be developed or updated as availability of consistent and comprehensive uncertainty information will be needed as fusion technology and facility construction matures. Finally, additional validation work for high energy neutrons, protons and deuterons, as well as validation work for the activation library will be needed.",
+            "publicationTitle": "Nuclear Data Sheets",
+            "publisher": "",
+            "place": "",
+            "date": "2024-02-01",
+            "volume": "193",
+            "issue": "",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "1-78",
+            "series": "Special Issue on Nuclear Reaction Data",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "Nuclear Data Sheets",
+            "DOI": "10.1016/j.nds.2024.01.001",
+            "citationKey": "",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0090375224000012",
+            "accessDate": "2026-05-28T14:12:33Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "0090-3752",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "FENDL",
+            "language": "",
+            "libraryCatalog": "ScienceDirect",
+            "callNumber": "",
+            "rights": "",
+            "extra": "",
+            "tags": [],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-05-28T14:12:33Z",
+            "dateModified": "2026-05-28T14:12:33Z"
+        }
+    },
+    {
         "key": "936FTUAR",
         "version": 32376,
         "library": {
@@ -2758,6 +3006,265 @@
             "relations": {},
             "dateAdded": "2022-07-01T15:11:47Z",
             "dateModified": "2022-10-04T02:04:55Z"
+        }
+    },
+    {
+        "key": "G4PTBKZK",
+        "version": 32462,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/G4PTBKZK",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/G4PTBKZK",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/NTRSICGY",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 6796428
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Bohm and Sawan",
+            "parsedDate": "2021-11-17",
+            "numChildren": 1
+        },
+        "bibtex": "\n@article{bohm_neutronics_2021,\n\ttitle = {Neutronics {Calculations} to {Support} the {Fusion} {Evaluated} {Nuclear} {Data} {Library} ({FENDL})},\n\tvolume = {77},\n\tissn = {1536-1055},\n\turl = {https://doi.org/10.1080/15361055.2021.1908783},\n\tdoi = {10.1080/15361055.2021.1908783},\n\tabstract = {In the design of fusion reactors, determining radiation levels due to neutrons and photons (gammas) throughout the reactor and its surroundings is important. Radiation transport codes need to have accurate cross-section libraries in order to produce accurate results. The Fusion Evaluated Nuclear Data Library (FENDL) is an international effort coordinated by the International Atomic Energy Agency, Nuclear Data Section, that assembles a collection of the best nuclear data for fusion applications. In the current FENDL-3.1d data library, neutron cross sections for 65 of the 180 isotopes present in the library come from ENDF/B-VII.1. Monte Carlo–based neutronics calculations using cross-section libraries from FENDL (versions 2.1 and 3.1d), ENDF/B (versions VII.1 and VIII.0), and candidate new evaluations for key structural elements/isotopes such as iron and chromium were performed. The calculations were performed in reactor-relevant models including a one-dimensional (1-D) cylindrical model of ITER, a three-dimensional (3-D) computer-aided design (CAD)–based model of ITER, and a 3-D CAD-based model of the U.S. Fusion Energy System Studies Fusion Nuclear Science Facility (FNSF). The results show that neutron fluxes calculated with different cross-section libraries can be as much as 12\\% higher and as much as 8\\% lower than those calculated with the reference cross-section library (FENDL-2.1). Nuclear heating calculated with different cross-section libraries can be as much as 14\\% higher and as much as 8\\% lower than those calculated with the reference cross-section library. Iron displacements per atom calculated with different cross-section libraries can be as much as 9\\% higher and as much as 9\\% lower than those calculated with the reference cross-section library. Helium production calculated with different cross-section libraries can be as much as 19\\% higher and as much as 2\\% lower than those calculated with the reference cross-section library. Tritium production in the ITER 1-D model’s nonbreeding regions calculated with different cross-section libraries can be as much as 246\\% higher and as much as 5\\% lower than those calculated with the reference cross-section library. The tritium breeding ratio in the FNSF 3-D model calculated with different cross-section libraries averaged 1\\% higher at the inboard and 1.4\\% higher at the outboard than those calculated with the reference cross-section library.},\n\tnumber = {7-8},\n\turldate = {2026-05-28},\n\tjournal = {Fusion Science and Technology},\n\tpublisher = {Taylor \\& Francis},\n\tauthor = {Bohm, Tim D. and Sawan, Mohamed E.},\n\tmonth = nov,\n\tyear = {2021},\n\tnote = {\\_eprint: https://doi.org/10.1080/15361055.2021.1908783},\n\tkeywords = {Fusion Nuclear Science Facility, ITER, MCNP, Neutronics, cross section library},\n\tpages = {813--828},\n}\n",
+        "data": {
+            "key": "G4PTBKZK",
+            "version": 32462,
+            "itemType": "journalArticle",
+            "title": "Neutronics Calculations to Support the Fusion Evaluated Nuclear Data Library (FENDL)",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "Tim D.",
+                    "lastName": "Bohm"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Mohamed E.",
+                    "lastName": "Sawan"
+                }
+            ],
+            "abstractNote": "In the design of fusion reactors, determining radiation levels due to neutrons and photons (gammas) throughout the reactor and its surroundings is important. Radiation transport codes need to have accurate cross-section libraries in order to produce accurate results. The Fusion Evaluated Nuclear Data Library (FENDL) is an international effort coordinated by the International Atomic Energy Agency, Nuclear Data Section, that assembles a collection of the best nuclear data for fusion applications. In the current FENDL-3.1d data library, neutron cross sections for 65 of the 180 isotopes present in the library come from ENDF/B-VII.1. Monte Carlo–based neutronics calculations using cross-section libraries from FENDL (versions 2.1 and 3.1d), ENDF/B (versions VII.1 and VIII.0), and candidate new evaluations for key structural elements/isotopes such as iron and chromium were performed. The calculations were performed in reactor-relevant models including a one-dimensional (1-D) cylindrical model of ITER, a three-dimensional (3-D) computer-aided design (CAD)–based model of ITER, and a 3-D CAD-based model of the U.S. Fusion Energy System Studies Fusion Nuclear Science Facility (FNSF). The results show that neutron fluxes calculated with different cross-section libraries can be as much as 12% higher and as much as 8% lower than those calculated with the reference cross-section library (FENDL-2.1). Nuclear heating calculated with different cross-section libraries can be as much as 14% higher and as much as 8% lower than those calculated with the reference cross-section library. Iron displacements per atom calculated with different cross-section libraries can be as much as 9% higher and as much as 9% lower than those calculated with the reference cross-section library. Helium production calculated with different cross-section libraries can be as much as 19% higher and as much as 2% lower than those calculated with the reference cross-section library. Tritium production in the ITER 1-D model’s nonbreeding regions calculated with different cross-section libraries can be as much as 246% higher and as much as 5% lower than those calculated with the reference cross-section library. The tritium breeding ratio in the FNSF 3-D model calculated with different cross-section libraries averaged 1% higher at the inboard and 1.4% higher at the outboard than those calculated with the reference cross-section library.",
+            "publicationTitle": "Fusion Science and Technology",
+            "publisher": "Taylor & Francis",
+            "place": "",
+            "date": "2021-11-17",
+            "volume": "77",
+            "issue": "7-8",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "813-828",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "",
+            "DOI": "10.1080/15361055.2021.1908783",
+            "citationKey": "",
+            "url": "https://doi.org/10.1080/15361055.2021.1908783",
+            "accessDate": "2026-05-28T14:11:16Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "1536-1055",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "Taylor and Francis+NEJM",
+            "callNumber": "",
+            "rights": "",
+            "extra": "_eprint: https://doi.org/10.1080/15361055.2021.1908783",
+            "tags": [
+                {
+                    "tag": "Fusion Nuclear Science Facility, ITER",
+                    "type": 1
+                },
+                {
+                    "tag": "MCNP",
+                    "type": 1
+                },
+                {
+                    "tag": "Neutronics",
+                    "type": 1
+                },
+                {
+                    "tag": "cross section library",
+                    "type": 1
+                }
+            ],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-05-28T14:11:16Z",
+            "dateModified": "2026-05-28T14:11:16Z"
+        }
+    },
+    {
+        "key": "RCBZ3QWH",
+        "version": 32458,
+        "library": {
+            "type": "group",
+            "id": 10058,
+            "name": "CNERG",
+            "links": {
+                "alternate": {
+                    "href": "https://www.zotero.org/groups/10058",
+                    "type": "text/html"
+                }
+            }
+        },
+        "links": {
+            "self": {
+                "href": "https://api.zotero.org/groups/10058/items/RCBZ3QWH",
+                "type": "application/json"
+            },
+            "alternate": {
+                "href": "https://www.zotero.org/groups/10058/items/RCBZ3QWH",
+                "type": "text/html"
+            },
+            "attachment": {
+                "href": "https://api.zotero.org/groups/10058/items/4HXMQPPA",
+                "type": "application/json",
+                "attachmentType": "application/pdf",
+                "attachmentSize": 5186272
+            }
+        },
+        "meta": {
+            "createdByUser": {
+                "id": 112658,
+                "username": "gonuke",
+                "name": "",
+                "links": {
+                    "alternate": {
+                        "href": "https://www.zotero.org/gonuke",
+                        "type": "text/html"
+                    }
+                }
+            },
+            "creatorSummary": "Kessel et al.",
+            "parsedDate": "2021-11-17",
+            "numChildren": 1
+        },
+        "bibtex": "\n@article{kessel_compactness_2021,\n\ttitle = {The {Compactness} and {Inboard} {Radial} {Build} of {Fusion} {Nuclear} {Devices}},\n\tvolume = {77},\n\tissn = {1536-1055},\n\turl = {https://doi.org/10.1080/15361055.2021.1909988},\n\tdoi = {10.1080/15361055.2021.1909988},\n\tabstract = {Restraining the size of fusion power plants is considered an important avenue to make them a competitive energy source among other forms of energy production. The most critical contributor to the size of a tokamak is the inboard radial build, composed of multiple components with various functions. This build is the ultimate limit to size reduction. The Fusion Nuclear Science Facility is reviewed and each element of the inboard build is described, showing that the build, including breeding blanket, structural ring, vacuum vessel, low-temperature shield, and toroidal field and central solenoid (CS) coils, contributes 2.9 m of build, with 0.6 m of bore hole inside the CS coil, or 3.5 m to reach the plasma scrape-off layer. This implies that it would be challenging to make a significantly smaller build and simultaneously meet all the engineering requirements.},\n\tnumber = {7-8},\n\turldate = {2026-05-28},\n\tjournal = {Fusion Science and Technology},\n\tpublisher = {Taylor \\& Francis},\n\tauthor = {Kessel, C. E. and Bohm, T. and Tillack, M. S. and Titus, P. and Zhai, Y.},\n\tmonth = nov,\n\tyear = {2021},\n\tnote = {\\_eprint: https://doi.org/10.1080/15361055.2021.1909988},\n\tkeywords = {Fusion nuclear device, design, inboard radial build, magnets, neutronics},\n\tpages = {519--531},\n}\n",
+        "data": {
+            "key": "RCBZ3QWH",
+            "version": 32458,
+            "itemType": "journalArticle",
+            "title": "The Compactness and Inboard Radial Build of Fusion Nuclear Devices",
+            "creators": [
+                {
+                    "creatorType": "author",
+                    "firstName": "C. E.",
+                    "lastName": "Kessel"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "T.",
+                    "lastName": "Bohm"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "M. S.",
+                    "lastName": "Tillack"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "P.",
+                    "lastName": "Titus"
+                },
+                {
+                    "creatorType": "author",
+                    "firstName": "Y.",
+                    "lastName": "Zhai"
+                }
+            ],
+            "abstractNote": "Restraining the size of fusion power plants is considered an important avenue to make them a competitive energy source among other forms of energy production. The most critical contributor to the size of a tokamak is the inboard radial build, composed of multiple components with various functions. This build is the ultimate limit to size reduction. The Fusion Nuclear Science Facility is reviewed and each element of the inboard build is described, showing that the build, including breeding blanket, structural ring, vacuum vessel, low-temperature shield, and toroidal field and central solenoid (CS) coils, contributes 2.9 m of build, with 0.6 m of bore hole inside the CS coil, or 3.5 m to reach the plasma scrape-off layer. This implies that it would be challenging to make a significantly smaller build and simultaneously meet all the engineering requirements.",
+            "publicationTitle": "Fusion Science and Technology",
+            "publisher": "Taylor & Francis",
+            "place": "",
+            "date": "2021-11-17",
+            "volume": "77",
+            "issue": "7-8",
+            "section": "",
+            "partNumber": "",
+            "partTitle": "",
+            "pages": "519-531",
+            "series": "",
+            "seriesTitle": "",
+            "seriesText": "",
+            "journalAbbreviation": "",
+            "DOI": "10.1080/15361055.2021.1909988",
+            "citationKey": "",
+            "url": "https://doi.org/10.1080/15361055.2021.1909988",
+            "accessDate": "2026-05-28T14:07:52Z",
+            "PMID": "",
+            "PMCID": "",
+            "ISSN": "1536-1055",
+            "archive": "",
+            "archiveLocation": "",
+            "shortTitle": "",
+            "language": "",
+            "libraryCatalog": "Taylor and Francis+NEJM",
+            "callNumber": "",
+            "rights": "",
+            "extra": "_eprint: https://doi.org/10.1080/15361055.2021.1909988",
+            "tags": [
+                {
+                    "tag": "Fusion nuclear device",
+                    "type": 1
+                },
+                {
+                    "tag": "design",
+                    "type": 1
+                },
+                {
+                    "tag": "inboard radial build",
+                    "type": 1
+                },
+                {
+                    "tag": "magnets",
+                    "type": 1
+                },
+                {
+                    "tag": "neutronics",
+                    "type": 1
+                }
+            ],
+            "collections": [
+                "UKXV4KID"
+            ],
+            "relations": {},
+            "dateAdded": "2026-05-28T14:07:52Z",
+            "dateModified": "2026-05-28T14:07:52Z"
         }
     },
     {
@@ -19183,416 +19690,6 @@
             "relations": {},
             "dateAdded": "2012-06-14T20:16:33Z",
             "dateModified": "2012-06-14T20:28:50Z"
-        }
-    },
-    {
-        "key": "9JR87B4K",
-        "version": 20082,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/9JR87B4K",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/9JR87B4K",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/T4UHFGM3",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 3755033
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 1044870,
-                "username": "KLEPAIN",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/klepain",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "lastModifiedByUser": {
-                "id": 708524,
-                "username": "erelson",
-                "name": "Eric Relson",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/erelson",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Bohm et al.",
-            "parsedDate": "2011-08",
-            "numChildren": 1
-        },
-        "bibtex": "\n@article{bohm_assessment_2011,\n\ttitle = {Assessment of the {Surface} {Source} {Approach} in 3-{D} {Fusion} {Neutronics} {Analysis}},\n\tvolume = {60},\n\turl = {http://fti.neep.wisc.edu/pdf/fdm1368.pdf},\n\tabstract = {The surface source write/read capability in the 3-D neutronics code MCNP has been implemented in the CAD based DAG-MCNP. We performed neutronics calculations for a detailed solid model of an ITER first wall/shield module to assess the accuracy of the results obtained using the surface source for toroidal fusion systems. To further understand the sensitivity of the results to the size of the surface source and boundary conditions, we performed calculations for a simplified 3-D ITER model. The results show that use of the surface source approach is accurate provided that the surface source and associated reflective boundaries are extended beyond the component of interest by at least 10 cm and the surface source is generated/placed as close as possible to the front surface of that component.},\n\tnumber = {2},\n\tjournal = {Fusion Science and Technology},\n\tauthor = {Bohm, T.D. and Smith, B. and Sawan, M.E. and Wilson, P.P.H.},\n\tmonth = aug,\n\tyear = {2011},\n\tkeywords = {3D, Boundary Conditions, CAD, Code, International Thermonuclear Reactor (ITER), MCNP, Neutronics, Surface Source},\n\tpages = {703--707},\n}\n",
-        "data": {
-            "key": "9JR87B4K",
-            "version": 20082,
-            "itemType": "journalArticle",
-            "title": "Assessment of the Surface Source Approach in 3-D Fusion Neutronics Analysis",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "T.D.",
-                    "lastName": "Bohm"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "B.",
-                    "lastName": "Smith"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "M.E.",
-                    "lastName": "Sawan"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "P.P.H.",
-                    "lastName": "Wilson"
-                }
-            ],
-            "abstractNote": "The surface source write/read capability in the 3-D neutronics code MCNP has been implemented in the CAD based DAG-MCNP. We performed neutronics calculations for a detailed solid model of an ITER first wall/shield module to assess the accuracy of the results obtained using the surface source for toroidal fusion systems. To further understand the sensitivity of the results to the size of the surface source and boundary conditions, we performed calculations for a simplified 3-D ITER model. The results show that use of the surface source approach is accurate provided that the surface source and associated reflective boundaries are extended beyond the component of interest by at least 10 cm and the surface source is generated/placed as close as possible to the front surface of that component.",
-            "publicationTitle": "Fusion Science and Technology",
-            "publisher": "",
-            "place": "",
-            "date": "Aug 2011",
-            "volume": "60",
-            "issue": "2",
-            "section": "",
-            "partNumber": "",
-            "partTitle": "",
-            "pages": "703-707",
-            "series": "",
-            "seriesTitle": "",
-            "seriesText": "",
-            "journalAbbreviation": "",
-            "DOI": "",
-            "citationKey": "",
-            "url": "http://fti.neep.wisc.edu/pdf/fdm1368.pdf",
-            "accessDate": "",
-            "PMID": "",
-            "PMCID": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [
-                {
-                    "tag": "3D"
-                },
-                {
-                    "tag": "Boundary Conditions"
-                },
-                {
-                    "tag": "CAD"
-                },
-                {
-                    "tag": "Code"
-                },
-                {
-                    "tag": "International Thermonuclear Reactor (ITER)"
-                },
-                {
-                    "tag": "MCNP"
-                },
-                {
-                    "tag": "Neutronics"
-                },
-                {
-                    "tag": "Surface Source"
-                }
-            ],
-            "collections": [
-                "UKXV4KID"
-            ],
-            "relations": {},
-            "dateAdded": "2012-06-14T20:09:22Z",
-            "dateModified": "2012-06-14T20:14:00Z"
-        }
-    },
-    {
-        "key": "XED4HZWF",
-        "version": 20082,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/XED4HZWF",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/XED4HZWF",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/KGGP6F5Q",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 499659
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 1044870,
-                "username": "KLEPAIN",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/klepain",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Bohm et al.",
-            "parsedDate": "2011-08",
-            "numChildren": 1
-        },
-        "bibtex": "\n@article{bohm_investigation_2011,\n\ttitle = {Investigation of {Observed} {Peaking} in {Nuclear} {Paramters} at {Steel}/{Water} {Interfaces}},\n\tvolume = {60},\n\tissn = {1536-1055},\n\tabstract = {The ITER blanket modules (BM) are geometrically complex with many water coolant channels in a SS316 structure. Detailed mapping of nuclear heating, radiation damage, and helium production is an essential input to the design process. Previous high fidelity, high-resolution results calculated with the CAD based DAG-MCNP code revealed important heterogeneity effects on nuclear heating and helium production near steel/water interfaces. We carried out additional analysis for a simplified geometry to understand the reasons behind the observed peaking in the steel nuclear parameters at the interface with the water coolant. The results show that the peaking in nuclear heating is due to the softer neutron spectrum in the portion of steel adjacent to water which results in more gamma generation. Helium production peaking in steel adjacent to the water is due to the softer neutron spectrum which results in increased helium production primarily in B-10 impurities present in the SS316 in addition to a two-step reaction of low-energy neutrons with Ni.},\n\tnumber = {2},\n\tjournal = {Fusion Science and Technology},\n\tauthor = {Bohm, T.D. and Sawan, M.E. and Smith, B. and Wilson, P.P.H.},\n\tmonth = aug,\n\tyear = {2011},\n\tkeywords = {Blanket, Helium, Interfaces, International Thermonuclear Reactor (ITER), Nuclear Heating, Parameter, Steel, Water},\n\tpages = {698--702},\n}\n",
-        "data": {
-            "key": "XED4HZWF",
-            "version": 20082,
-            "itemType": "journalArticle",
-            "title": "Investigation of Observed Peaking in Nuclear Paramters at Steel/Water Interfaces",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "T.D.",
-                    "lastName": "Bohm"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "M.E.",
-                    "lastName": "Sawan"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "B.",
-                    "lastName": "Smith"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "P.P.H.",
-                    "lastName": "Wilson"
-                }
-            ],
-            "abstractNote": "The ITER blanket modules (BM) are geometrically complex with many water coolant channels in a SS316 structure. Detailed mapping of nuclear heating, radiation damage, and helium production is an essential input to the design process. Previous high fidelity, high-resolution results calculated with the CAD based DAG-MCNP code revealed important heterogeneity effects on nuclear heating and helium production near steel/water interfaces. We carried out additional analysis for a simplified geometry to understand the reasons behind the observed peaking in the steel nuclear parameters at the interface with the water coolant. The results show that the peaking in nuclear heating is due to the softer neutron spectrum in the portion of steel adjacent to water which results in more gamma generation. Helium production peaking in steel adjacent to the water is due to the softer neutron spectrum which results in increased helium production primarily in B-10 impurities present in the SS316 in addition to a two-step reaction of low-energy neutrons with Ni.",
-            "publicationTitle": "Fusion Science and Technology",
-            "publisher": "",
-            "place": "",
-            "date": "Aug 2011",
-            "volume": "60",
-            "issue": "2",
-            "section": "",
-            "partNumber": "",
-            "partTitle": "",
-            "pages": "698-702",
-            "series": "",
-            "seriesTitle": "",
-            "seriesText": "",
-            "journalAbbreviation": "",
-            "DOI": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "PMID": "",
-            "PMCID": "",
-            "ISSN": "1536-1055",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [
-                {
-                    "tag": "Blanket"
-                },
-                {
-                    "tag": "Helium"
-                },
-                {
-                    "tag": "Interfaces"
-                },
-                {
-                    "tag": "International Thermonuclear Reactor (ITER)"
-                },
-                {
-                    "tag": "Nuclear Heating"
-                },
-                {
-                    "tag": "Parameter"
-                },
-                {
-                    "tag": "Steel"
-                },
-                {
-                    "tag": "Water"
-                }
-            ],
-            "collections": [
-                "UKXV4KID"
-            ],
-            "relations": {},
-            "dateAdded": "2012-06-14T20:03:00Z",
-            "dateModified": "2012-06-14T20:06:05Z"
-        }
-    },
-    {
-        "key": "KTIIT2MD",
-        "version": 20082,
-        "library": {
-            "type": "group",
-            "id": 10058,
-            "name": "CNERG",
-            "links": {
-                "alternate": {
-                    "href": "https://www.zotero.org/groups/10058",
-                    "type": "text/html"
-                }
-            }
-        },
-        "links": {
-            "self": {
-                "href": "https://api.zotero.org/groups/10058/items/KTIIT2MD",
-                "type": "application/json"
-            },
-            "alternate": {
-                "href": "https://www.zotero.org/groups/10058/items/KTIIT2MD",
-                "type": "text/html"
-            },
-            "attachment": {
-                "href": "https://api.zotero.org/groups/10058/items/QJGTCEHV",
-                "type": "application/json",
-                "attachmentType": "application/pdf",
-                "attachmentSize": 439145
-            }
-        },
-        "meta": {
-            "createdByUser": {
-                "id": 1044870,
-                "username": "KLEPAIN",
-                "name": "",
-                "links": {
-                    "alternate": {
-                        "href": "https://www.zotero.org/klepain",
-                        "type": "text/html"
-                    }
-                }
-            },
-            "creatorSummary": "Sawan et al.",
-            "parsedDate": "2011-08",
-            "numChildren": 1
-        },
-        "bibtex": "\n@article{sawan_neutronics_2011,\n\ttitle = {Neutronics {Analysis} in {Support} of the {Fusion} {Development} {Facility} {Design} {Evolution}},\n\tvolume = {60},\n\tabstract = {3-D neutronics analysis was performed for the baseline design of FDF. Two blanket concepts were considered; Dual Coolant Lead Lithium (DCLL), and Helium Cooled Ceramic Breeder (HCCB). A peak outboard neutron wall loading of 2 MW/m2 and a fluence of 6 MW-yr/m2 can be achieved with 240 MW fusion power. The tritium breeding ratio is adequate for both blankets. Modest magnet damage parameters were obtained. However, it is recommended that the PF coil in the divertor region be moved vertically farther from the mid-plane to allow adding {\\textasciitilde}15 cm of shield to reduce the peak organic insulator dose to an acceptable level.},\n\tnumber = {2},\n\tjournal = {Fusion Science and Technology},\n\tauthor = {Sawan, M.E. and Ibrahim, A.M. and Wilson, P.P.H. and Marriott, E.P. and Stambaugh, R.D. and Wong, C.P.C.},\n\tmonth = aug,\n\tyear = {2011},\n\tpages = {671--675},\n}\n",
-        "data": {
-            "key": "KTIIT2MD",
-            "version": 20082,
-            "itemType": "journalArticle",
-            "title": "Neutronics Analysis in Support of the Fusion Development Facility Design Evolution",
-            "creators": [
-                {
-                    "creatorType": "author",
-                    "firstName": "M.E.",
-                    "lastName": "Sawan"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "A.M.",
-                    "lastName": "Ibrahim"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "P.P.H.",
-                    "lastName": "Wilson"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "E.P.",
-                    "lastName": "Marriott"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "R.D.",
-                    "lastName": "Stambaugh"
-                },
-                {
-                    "creatorType": "author",
-                    "firstName": "C.P.C.",
-                    "lastName": "Wong"
-                }
-            ],
-            "abstractNote": "3-D neutronics analysis was performed for the baseline design of FDF. Two blanket concepts were considered; Dual Coolant Lead Lithium (DCLL), and Helium Cooled Ceramic Breeder (HCCB). A peak outboard neutron wall loading of 2 MW/m2 and a fluence of 6 MW-yr/m2 can be achieved with 240 MW fusion power. The tritium breeding ratio is adequate for both blankets. Modest magnet damage parameters were obtained. However, it is recommended that the PF coil in the divertor region be moved vertically farther from the mid-plane to allow adding ~15 cm of shield to reduce the peak organic insulator dose to an acceptable level.",
-            "publicationTitle": "Fusion Science and Technology",
-            "publisher": "",
-            "place": "",
-            "date": "Aug 2011",
-            "volume": "60",
-            "issue": "2",
-            "section": "",
-            "partNumber": "",
-            "partTitle": "",
-            "pages": "671-675",
-            "series": "",
-            "seriesTitle": "",
-            "seriesText": "",
-            "journalAbbreviation": "",
-            "DOI": "",
-            "citationKey": "",
-            "url": "",
-            "accessDate": "",
-            "PMID": "",
-            "PMCID": "",
-            "ISSN": "",
-            "archive": "",
-            "archiveLocation": "",
-            "shortTitle": "",
-            "language": "",
-            "libraryCatalog": "",
-            "callNumber": "",
-            "rights": "",
-            "extra": "",
-            "tags": [],
-            "collections": [
-                "UKXV4KID"
-            ],
-            "relations": {},
-            "dateAdded": "2012-06-14T19:40:55Z",
-            "dateModified": "2012-06-14T19:58:20Z"
         }
     }
 ]
