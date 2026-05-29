@@ -68,6 +68,10 @@
     url: "evpou"
     role: "Undergraduate Researcher With SURE"
     image: Evan_thebestihave.jpg
+  - name: "Tanjimul Safi"
+    url: "tanjimul"
+    role: "Undergraduate Researcher"
+    image: safi.jpg
 - group: 'Alumni and Former CNERG members'
   people:
   - name: Tae Wook Ahn
