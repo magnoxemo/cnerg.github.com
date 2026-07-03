@@ -1,0 +1,38 @@
+name: Website CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build website
+        run: bundle exec jekyll build
+
+      - name: Check for broken internal links
+        run: |
+          gem install html-proofer
+          htmlproofer ./_site \
+            --disable-external \
+            --check-html \
+            --allow-hash-href
+
+            
