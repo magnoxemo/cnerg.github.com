@@ -54,6 +54,11 @@
     url: "walid"
     role: "PhD Student"
     image: walid.jpeg
+  - name: "Max Mateer"
+    url: "mdm"
+    role: "PhD Student"
+    image: Mateer.jpeg
+    
 - group: 'Undergraduate Students'
   people:
   - name: "Gerson A. Esquivel Garcia"
