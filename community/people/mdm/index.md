@@ -8,7 +8,7 @@ email:
 room: "3rd Floor Engineering Research Building"
 address: "1500 Engineering Dr"
 github: MaxMateer
-linkedin: MaxAMateer
+linkedin: maxamateer
 ---
 
 
