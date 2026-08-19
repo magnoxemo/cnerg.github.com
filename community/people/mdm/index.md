@@ -7,8 +7,9 @@ email:
   - mmateer@wisc.edu
 room: "3rd Floor Engineering Research Building"
 address: "1500 Engineering Dr"
-github: MaxMateer
-linkedin: maxamateer
+services:
+ github: MaxMateer
+ linkedin: maxamateer
 ---
 
 
