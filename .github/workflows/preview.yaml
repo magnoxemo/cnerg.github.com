@@ -1,0 +1,37 @@
+name: PR Preview
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site (PR branch)
+        run: bundle exec jekyll build --destination _site --baseurl "/pr/${{ github.event.number }}"
+
+      - name: Deploy preview to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: pr/${{ github.event.number }}
+          keep_files: true
+
+      - name: Comment preview link on PR
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: pr-preview
+          message: |
+            Site preview : https://cnerg.github.io/pr/${{ github.event.number }}/
