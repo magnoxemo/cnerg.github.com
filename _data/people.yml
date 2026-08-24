@@ -58,6 +58,11 @@
     url: "mdm"
     role: "PhD Student"
     image: Mateer.jpg
+  - name: "Madison Grove"
+    url: "mgrove"
+    role: "PHD Student"
+    image: headshot.png
+	
     
 - group: 'Undergraduate Students'
   people:
